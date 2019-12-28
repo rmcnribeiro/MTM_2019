@@ -18,15 +18,17 @@ Parte do ssh. Tentei fazer direto pelo mainframe mas nao deu certo. Segue a solu
         
 * Quando for requisitado mandar a mensagem para o P3.OUTPUT:     
     
-    ![Direcionando a saida do programa em Java para o Dataset.](/images/01.png)
+    ![Direcionando a saida do programa em Java para o Dataset.](/images/JCL_new_line.png)
 
     > 000003 //STDOUT   DD DSN=&SYSUID..P3.OUTPUT(#05),DISP=SHR
 
-    DSN (Dataset name); &SYSUID sera substituido pelo seu ID; .P3.OUTPUT(#05) Caminho para o Dataset onde sera gravado;
-    DISP=SHR Arquivo compartilhado
+    > DSN (Dataset name); &SYSUID sera substituido pelo seu ID; .P3.OUTPUT(#05) Caminho para o Dataset onde sera gravado;
+    > DISP=SHR Arquivo compartilhado
 
 * Rode novamente o JCL para ver o resultado (submit ; =sd ; st)
 
 * Confira se o P3 Output tem a mensagem do programa
+
+![Resultado Parte III - Desafio 5.](/images/Result_P3_05.png)
 
 * Se tiver, tudo certo!
