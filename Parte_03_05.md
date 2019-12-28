@@ -2,6 +2,10 @@
 
 ## Desafio 5:
 
+### Parte do SSH:
+
+Guia do proprio MTM para o ssh pode ser encontrado nesse [link](http://mtm2019.mybluemix.net/printview/connguide.html).
+
 * Entre no terminal do seu pc
 
 * Digite o comando do ssh: ssh z#####@192.86.32.91 (Considerando sistemas Unix)
