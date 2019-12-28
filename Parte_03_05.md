@@ -15,8 +15,12 @@ Parte do ssh. Tentei fazer direto pelo mainframe mas nao deu certo. Segue a solu
 * Siga todos os passos do site do MTM
 
 * Veja o STDOUT (DDNAME) do JAVAC para ver a mensagem printada
+        
+* Quando for requisitado mandar a mensagem para o P3.OUTPUT:     
     
-    000003 //STDOUT   DD DSN=&SYSUID..P3.OUTPUT(#05),DISP=SHR
+    ![Direcionando a saida do programa em Java para o Dataset.](/images/01.png)
+
+    > 000003 //STDOUT   DD DSN=&SYSUID..P3.OUTPUT(#05),DISP=SHR
 
     DSN (Dataset name); &SYSUID sera substituido pelo seu ID; .P3.OUTPUT(#05) Caminho para o Dataset onde sera gravado;
     DISP=SHR Arquivo compartilhado
