@@ -2,8 +2,6 @@
 
 ## Desafio 5:
 
-Parte do ssh. Tentei fazer direto pelo mainframe mas nao deu certo. Segue a solucao encontrada. 
-
 * Entre no terminal do seu pc
 
 * Digite o comando do ssh: ssh z#####@192.86.32.91 (Considerando sistemas Unix)
